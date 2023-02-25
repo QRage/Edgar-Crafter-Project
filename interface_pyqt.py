@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(self.tabs)
 
-        self.setGeometry(300, 200, 800, 600)
+        self.setGeometry(300, 200, 300, 600)
         self.setWindowTitle("Edgar crafter")
 
         ###
