@@ -15,6 +15,7 @@ class MainWindow(QMainWindow):
         self.tab4 = QWidget()
 
         self.tab1.layout = QVBoxLayout(self.tab1)
+        # TODO craft page widgets
         self.tab1.layout.addWidget(Craft())
         self.tab1.setLayout(self.tab1.layout)
 
